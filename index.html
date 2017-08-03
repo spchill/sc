@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/home.css">
+		<meta charset="UTF-8">
+		<title>sc stuff</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	</head>
+
+	<body>
+        <div class="nav-bar">
+            <div class="content-wrapper">
+                <h1 class="logo"><a class="clean-link" href="">sc stuff</a></h1>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="row center-content">
+                <form id="search-form" action="tv.html" method="get">
+                    <label class="hidden" for="search-field">Search: </label>
+                    <input id="search-field" class="ui-autocomplete-input" autocomplete="off" name="show" placeholder="Enter specific show title"><button>Go</button>
+                </form>
+                <div id="autocomplete-list" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front"></div>
+            </div>
+        </div>
+		<script src="js/main.js" type="text/javascript"></script>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+#episode-container .row{
+    border-bottom:solid 1px #bda8e0;
+}
+
+#episode-container h2{
+    margin-top:0;
+    font-size:50px;
+    color:#7e57c2;
+    text-shadow:0 2px 3px rgba(0,0,0,0.4), 0 2px 3px rgba(126, 87, 194, 0.1);
+}
+
+#episode-container h3{
+    font-size:25px;
+}
+
+#episode-container a{
+    color:#7e57c2;
+}
+
+#episode-container a:visited{
+    color:#6b4ba2;
+}
+
+#episode-container ul{
+    list-style:none;
+    padding-left:0;
+}
+
+#episode-container li{
+    margin:0 0 3px 0;
+}
